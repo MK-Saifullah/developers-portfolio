@@ -9,8 +9,9 @@ h1{
     color: orange
 }
 
-section{
+.flexible-container{
     display: flex;
+    padding-bottom: 150px;
 }
 .link-button{
     background: orange;
@@ -24,6 +25,7 @@ section{
 .left-side{
     width: 50%;
     padding-left:10%;
+    padding-right:25px;
 }
 .right-side img {
     width: 75%;
@@ -32,4 +34,29 @@ section{
 .top-header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-header{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-header{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.job-duration{
+    color: orange;
+}
+.experience-unit{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin: 0 5%;
+    border-radius: 10px;
+    /* border-left: 10px solid pink; */
+    /* border: 1px solid gray; */
+    
+}
+footer p {
+    text-align: center;
 }
